@@ -1,5 +1,7 @@
 body {
 	background-color: lightGray;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 div {
 	border: 1px solid Chocolate;
@@ -9,18 +11,13 @@ div {
 	background-color: #fff;
 }
 .top-navigation > .content {
-	width: 60%;
 	height: 70px;
-	margin: 0 auto;
-	padding: 0px 15px;
 }
 .top-navigation .links {
 	float: right;
-	font-family: "Roboto", sans-serif;
 	color: #838994;
 	font-size: 16px;
 	margin-top: 25px;
-	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
 	display: inline-block;
@@ -40,11 +37,31 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+.content {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
 /* Introduction Section */
 .introduction {
 	background-image: url("../images/first-background.jpg");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 45.938rem;
+	height: 40.938rem;
+	overflow: auto;
+}
+.introduction h1 {
+	margin-top:13rem;
+	font-size: 3.125rem;
+	margin-bottom: 0;
+}
+.introduction h3 {
+	margin-top: .75rem;
+	font-size: 1.563rem;
+}
+h1, h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
 }
