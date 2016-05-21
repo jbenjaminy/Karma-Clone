@@ -65,3 +65,18 @@ h1, h3 {
 	text-align: center;
 	font-weight: 300;
 }
+.buttons {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	width: 9rem;
+	margin: 0 auto;
+	color: white;
+	font-size: 1.125rem;
+	background-color: #f15a29;
+}
+.buttons:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+}
