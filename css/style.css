@@ -34,3 +34,9 @@ div {
 	cursor: pointer;
 	color: #333333;
 }
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
