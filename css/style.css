@@ -9,6 +9,9 @@ div {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	height: 70px;
@@ -100,6 +103,8 @@ h1, h3 {
 .cases .devices > li {
 	width: 33.3333333%;
 	float: left;
+	display: inline-block;
+	box-sizing: border-box;
 }
 .cases .devices p {
 	font-weight: 300;
